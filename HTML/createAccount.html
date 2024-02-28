@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Account</title>
+<link rel="stylesheet" href="createAccount.css">
+	<script src="createAccount.js"> </script>
+</head>
+<body>
+	<div class="border"> 
+	<p> &nbsp; &nbsp;<a href="Homepage.html"> Mahima's Market&nbsp; </a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      <input type="text" id="searchInput" class="search-input" placeholder="Search Mahima's Market...">
+      <button onclick="search()">Search</button> 
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="createAccount.html">SignIn</a> <img src="../Image/2122.jpg" alt="Icon" class="lock">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="Shop.html">Shop</a> &nbsp; <img src="../Image/img_2120.jpg" alt="Icon" class="cart">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+</div>
+	<h2>Create Account</h2>
+    <form onsubmit="return validateForm()">
+        <label for="login">Login*:</label>
+        <input type="text" id="login" name="login" required><br>
+
+        <label for="password">Password*:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <label for="email">Email*:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="street">Street:</label>
+        <input type="text" id="street" name="street"><br>
+
+        <label for="city">City:</label>
+        <input type="text" id="city" name="city"><br>
+
+        <label for="state">State:</label>
+        <input type="text" id="state" name="state"><br>
+
+        <label for="zip">ZIP:</label>
+        <input type="text" id="zip" name="zip"><br>
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" name="phone"><br>
+
+        <input type="submit" value="Create Account">
+    </form>
+</body>
+</html>
